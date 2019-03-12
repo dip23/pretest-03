@@ -29,7 +29,6 @@ void inputMhs(LarikMhs& mhs, int n) {
         cout << "IPK : "; cin >> mhs[i].ipk;
         cout << endl;
     }
-    convNPM(mhs,n);
 }
 
 void cetakMhs(LarikMhs mhs, int n) {
@@ -50,9 +49,10 @@ void convNPM(LarikMhs& mhs, int n){
 }
 
 void sortNPM(LarikMhs& mhs, int n){
+	convNPM(mhs,n);
 	for(int i=n-1;i>0;i--){
 		for(int j=0;j<i;j++){
-			if(mhs[j].npm>mhs[j+1].npm){
+			if(mhs[j].npm2>mhs[j+1].npm2){
 				swap(mhs[j],mhs[j+1]);
 			}
 		}
