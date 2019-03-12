@@ -2,8 +2,8 @@
 Nama	: Difa Bagasputra M
 NPM		: 140810180057
 Kelas	: A
-Tanggal	: 5 Maret 2019
-Deskripsi	: Program untuk mencetak data pegawai secara ascending berdasar nip dan cetak gaji
+Tanggal	: 12 Maret 2019
+Deskripsi	: Program untuk sorting mahasiswa
 */
 
 #include <iostream>
